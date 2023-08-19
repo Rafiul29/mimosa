@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import { buttonVariants } from "../ui/Button";
 
 const Navbar = () => {
   return (
-    <header className="h-20 border-b border-gray flex items-center bg-white">
+    <header className="h-20 border-b border-grey flex items-center bg-white">
       <div className="wrapper grid grid-cols-3 gap-20 items-center">
         {/* LEFT NAV */}
         <nav >
@@ -29,7 +30,7 @@ const Navbar = () => {
         </nav>
         {/* RIGHT NAV */}
         <nav >
-          <ul className="flex gap-5 justify-end">
+          <ul className="flex gap-5 justify-end items-center">
             <li>
               <Link href="/" className="link-item">Link4</Link>
             </li>
@@ -37,7 +38,7 @@ const Navbar = () => {
               <Link href="/" className="link-item">Link5</Link>
             </li>
             <li>
-              <Link href="/user/sign-in">Sign in</Link>
+              <Link href="/user/sign-in" className={buttonVariants({variant:"ocean"})}>Sign in</Link>
             </li>
           </ul>
         </nav>

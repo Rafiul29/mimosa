@@ -1,8 +1,10 @@
-import React from 'react'
+import Button from '../components/ui/Button'
 
 const HomePage = () => {
   return (
-    <main>HomePage</main>
+    <main>
+      Home page
+    </main>
   )
 }
 

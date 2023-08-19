@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils'
 const bai_Jamjuree = Bai_Jamjuree({ subsets: ['latin'],weight:["200","300","400","500","600","700"] })
 
 export const metadata: Metadata = {
-  title: 'Home | Mimosa',
+  title: 'Mimosa | Home',
 }
 
 export default function RootLayout({
