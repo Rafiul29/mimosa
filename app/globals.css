@@ -11,6 +11,14 @@
   transition: 300ms cubic-bezier(0.22, 1, 0.36, 1);;
 }
 
+/* BASE STYLE */
+main{
+  @apply mt-20
+}
+.section-padding{
+  @apply py-20
+}
+
 /* LINK STYLE */
 .link-item{
   @apply relative
@@ -20,4 +28,9 @@
 }
 .link-item::after:hover{
   @apply w-full
+}
+
+/* headline-1 */
+.headline-1{
+  @apply text-9xl
 }
