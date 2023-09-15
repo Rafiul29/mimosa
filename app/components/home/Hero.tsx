@@ -1,13 +1,13 @@
+import Link from "next/link";
 import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 const plafairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
     <section className="wrapper section-padding h-[calc(100vh-5rem)] ">
-      <div className="w-full h-full  grid grid-rows-8 gap-5 bg-red">
+      <div className="w-full h-full  grid grid-rows-8 gap-5">
         {/* FIRST ROW */}
         <div className="w-full h-[8rem]  grid grid-cols-[30%_auto] gap-20">
           <div className="w-full h-full  overflow-hidden">
@@ -109,11 +109,21 @@ const Hero = () => {
               <span className="text-orange">.</span>
             </h2>
           </div>
-
-          
         </div>
+        {/* PACKAGES */}
+        <Link
+          href="/#packages"
+          className="bg-dark/80 backdrop-blur-lg text-light w-40 h-40 rounded-full overflow-hidden flex justify-center items-center uppercase text-lg absolute left-[37.5%] bottom-[16%] z-[1] group shadow-2xl shadow-dark/60 hover:shadow-violet/60 eq "
+        >
+          <p className="z-[3]">Packages</p>
+          {/* FILLER 1*/}
+          <span className="z-[2] absolute top-full left-0 right-0 bottom-0 w-full h-1/2  bg-violet/80  group-hover:top-1/2 eq "></span>
+
+          {/* FILLER 2*/}
+          <span className="z-[2] absolute -top-full left-0 right-0 bottom-0 w-full h-1/2  bg-violet/80  group-hover:top-0 eq "></span>
+        </Link>
       </div>
-    </section>
+    </section> 
   );
 };
 
