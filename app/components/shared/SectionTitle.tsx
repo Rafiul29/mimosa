@@ -8,7 +8,7 @@ interface SectionTitleProps{
 
 const SectionTitle:React.FC<SectionTitleProps> = ({title,subtitle,color="bg-red"}) => {
   return (
-    <div className="flex gap-2.5 items-center">
+    <div className="flex gap-2.5 items-center mb-20">
       <span className={cn("w-4 h-20",color)}></span>
       <div className="flex flex-col gap-2.5 items-start">
       <span className="uppercase text-lg tracking-[0.375em] font-semibold ">{subtitle}</span>
