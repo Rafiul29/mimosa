@@ -7,7 +7,7 @@ interface PackageDetailsSectionProps{
 
 const PackageDetailsSection:React.FC<PackageDetailsSectionProps> = ({packageItem}) => {
   return (
-    <section className='wrapper selection-padding '>
+    <section className='wrapper section-padding '>
       {packageItem.title}
     </section>
   )

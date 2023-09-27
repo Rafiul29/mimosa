@@ -1,12 +1,12 @@
 import { cn } from "@/lib/utils";
 import { cva, VariantProps } from "class-variance-authority";
 
-export const buttonVariants = cva("inline-block text-center px-6 py-3 rounded-xl border eq font-medium active:scale-105 disabled:border-grey disabled:bg-grey disabled:text-dark/50 disabled:cursor-not-allowed", {
+export const buttonVariants = cva("inline-block text-center px-6 py-3 rounded-xl border eq font-medium active:scale-105 disabled:border-gray disabled:bg-gray disabled:text-dark/50 disabled:cursor-not-allowed", {
   variants: {
     variant: {
       dark: "border-dark bg-dark text-white hover:border-dark/90 hover:bg-dark/90",
       outline: "border-dark bg-transparent text-dark hover:bg-dark hover:text-white ",
-      ghost: "border-transparent bg-transparent text-dark hover:border-grey hover:bg-grey",
+      ghost: "border-transparent bg-transparent text-dark hover:border-gray hover:bg-gray",
       rose: "border-red bg-red text-white hover:border-red/90 hover:bg-red/90",
       valentine: "border-pink bg-pink text-dark hover:border-pink/90 hover:bg-pink/90",
       halloween: "border-orange bg-orange text-dark hover:border-orange/90 hover:bg-orange/90",
