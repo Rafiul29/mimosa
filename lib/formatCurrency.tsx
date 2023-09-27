@@ -1,8 +1,8 @@
-export const formatCurrency=(price:number)=>{
-  if(!price) return
+export const formatCurrency = (price: number) => {
+  if (!price) return;
 
-  return price.toLocaleString("en-us",{
-    style:"currency",
-    currency:"USD"
-  })
-}
+  return price.toLocaleString('en-us', {
+    style: 'currency',
+    currency: 'USD',
+  });
+};

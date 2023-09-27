@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,19 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors:{
-        "dark":"#191918",
-        "light":"#FFFCFA",
-        "gray":"#E2E0DF",
-        "red":"#C3315D",
-        "pink":"#ED7DC0",
-        "orange":"#FF7A42",
-        "green":"#00879F",
-        "blue":"#32B8CB",
-        "violet":"#7A60B3"
-      }
+      colors: {
+        dark: '#191918',
+        light: '#FFFCFA',
+        gray: '#E2E0DF',
+        red: '#C3315D',
+        pink: '#ED7DC0',
+        orange: '#FF7A42',
+        green: '#00879F',
+        blue: '#32B8CB',
+        violet: '#7A60B3',
+      },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

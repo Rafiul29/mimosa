@@ -1,16 +1,21 @@
-import Community from '@/components/home/Community'
-import Hero from '../../components/home/Hero'
-import Packages from '../../components/home/Packages'
-import Button from '../../components/ui/Button'
+import Community from '@/components/home/Community';
+import Hero from '../../components/home/Hero';
+import Packages from '../../components/packages/Packages';
+import Footer from '@/components/shared/footer/Footer';
+import Navbar from '@/components/shared/navbar/Navbar';
 
 const HomePage = () => {
   return (
-    <main>
-      <Hero/>
-      <Packages/>
-      <Community/>
-    </main>
-  )
-}
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Packages />
+        <Community />
+      </main>
+      <Footer />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
