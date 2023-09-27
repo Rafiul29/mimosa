@@ -28,6 +28,7 @@ main {
 .link-item {
   @apply relative;
 }
+
 .link-item::after {
   @apply eq absolute bottom-0 left-1/2 h-px w-0 -translate-x-1/2 bg-dark duration-300 content-[""];
 }
@@ -38,4 +39,9 @@ main {
 /* headline-1 */
 .headline-1 {
   @apply text-9xl;
+}
+
+/* headline-2 */
+.headline-2{
+  @apply text-8xl
 }
