@@ -4,6 +4,8 @@ import Packages from '../../components/packages/Packages';
 import Footer from '@/components/shared/footer/Footer';
 import Navbar from '@/components/shared/navbar/Navbar';
 import ComunityGathered from '@/components/home/ComunityGathered';
+import Products from '@/components/products/Projects';
+import Gallery from '@/components/home/Gallery';
 
 
 const HomePage = () => {
@@ -13,8 +15,10 @@ const HomePage = () => {
       <main>
         <Hero />
         <Packages />
+        <Products/>
         <Community />
       <ComunityGathered/>
+      <Gallery/>
       </main>
       <Footer />
     </>

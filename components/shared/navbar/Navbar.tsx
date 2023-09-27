@@ -2,7 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import { buttonVariants } from '../../ui/Button';
 
-const Navbar = () => {
+
+const Navbar = async() => {
+
+
+
   return (
     <header className='fixed left-0 right-0 top-0 z-[100] flex h-20 items-center border-b border-gray bg-white/80 backdrop-blur-lg'>
       <div className='wrapper grid grid-cols-3 items-center gap-20'>
@@ -50,12 +54,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href='/user/sign-in'
-                className={buttonVariants({ variant: 'ocean' })}
-              >
-                Sign in
-              </Link>
+         <Link
+                  href='/sign-in'
+                  className={buttonVariants({ variant: 'ocean' })}
+                > 
+                  Sign in
+                </Link> 
             </li>
           </ul>
         </nav>

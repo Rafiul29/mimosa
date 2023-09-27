@@ -13,7 +13,7 @@ interface PackagesProps {
 
 const Packages: React.FC<PackagesProps> = ({ fromPackages }) => {
   return (
-    <section className='wrapper section-padding ' id='packeages'>
+    <section className='wrapper section-padding mt-40' id='packeages'>
       <SectionTitle
         title='packages'
         subtitle='Explore our package section'

@@ -1,7 +1,8 @@
 'use client';
-import PackageDetailsSection from '@/components/home/PackageDetailsSection';
+
+import PackageDetailsSection from '@/components/package-details/PackageDetailsSection';
 import Footer from '@/components/shared/footer/Footer';
-import Navbar from '@/components/shared/Navbar';
+import Navbar from '@/components/shared/navbar/Navbar';
 import { data } from '@/data/packages';
 import { packageItem } from '@/types/packageItem';
 
